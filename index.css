@@ -1,3 +1,59 @@
 body {
     font-family: 'Sora', sans-serif;
+    padding: 200px 70px;
+    margin: auto;
+}
+
+.left {
+    width: 49%;
+    align-items: flex-start;
+}
+
+.emoji-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #F5C044;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    margin: 20px 0 -10px 0;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #52525A;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+
+.item {
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.list {
+    font-size: 0.875rem;
+    color: #52525A;
+    margin: 0;
+}
+
+.right {
+
+}
+span {
+    font-size: 1rem;
+    color: #52525A;
 }
