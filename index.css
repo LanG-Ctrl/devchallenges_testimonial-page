@@ -2,6 +2,7 @@ body {
     font-family: 'Sora', sans-serif;
     padding: 200px 70px;
     margin: auto;
+    background-color: #FAFAF9;
 }
 
 .left {
@@ -50,9 +51,42 @@ img {
     margin: 0;
 }
 
-.right {
-
+.company-logo {
+    height: auto;
+    width: 80px;
+    margin-right: 15px;
 }
+
+strong {
+    color: #18181B;
+}
+
+.google-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #D4D4D8;
+    position: absolute;
+    left: calc(100% - 70px - 360px);
+    top: 200px;
+    line-height: 2;
+    padding: 30px 40px;
+    height: 190px;
+    width: 360px;
+    box-sizing: border-box;
+}
+
+.meta-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #D4D4D8;
+    position: absolute;
+    left: 700px;
+    top: calc(100% - 200px - 190px );
+    line-height: 2;
+    padding: 30px 40px;
+    height: 190px;
+    width: 360px;
+    box-sizing: border-box;
+}
+
 span {
     font-size: 1rem;
     color: #52525A;
