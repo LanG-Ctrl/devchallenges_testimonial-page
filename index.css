@@ -1,6 +1,11 @@
 body {
     font-family: 'Sora', sans-serif;
-    margin: 6%;
+    padding: 6%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #FAFAF9;
 }
 
