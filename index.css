@@ -1,8 +1,13 @@
 body {
     font-family: 'Sora', sans-serif;
-    padding: 200px 70px;
-    margin: auto;
+    margin: 10%;
     background-color: #FAFAF9;
+}
+
+.all-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .left {
@@ -51,6 +56,11 @@ img {
     margin: 0;
 }
 
+.right {
+    width: 49%;
+    position: relative;
+}
+
 .company-logo {
     height: auto;
     width: 80px;
@@ -64,9 +74,7 @@ strong {
 .google-card {
     border-radius: 8px;
     box-shadow: 0px 4px 8px #D4D4D8;
-    position: absolute;
-    left: calc(100% - 70px - 360px);
-    top: 200px;
+    margin-left: 200px;
     line-height: 2;
     padding: 30px 40px;
     height: 190px;
@@ -77,9 +85,7 @@ strong {
 .meta-card {
     border-radius: 8px;
     box-shadow: 0px 4px 8px #D4D4D8;
-    position: absolute;
-    left: 700px;
-    bottom: 170px;
+    margin-top: 40px;
     line-height: 2;
     padding: 30px 40px;
     height: 190px;
@@ -90,4 +96,62 @@ strong {
 span {
     font-size: 1rem;
     color: #52525A;
+}
+
+
+@media (max-width: 1024px) {
+    body {
+        margin: 4%;
+    }
+
+    .all-container {
+        flex-direction: column;  
+        align-items: flex-start; 
+        justify-content: center;
+    }
+
+    .left {
+        width: 100%
+    }
+
+    .right {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .google-card {
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+
+    .meta-card {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        margin: 1%;
+    }
+    .all-container {
+        flex-direction: column;  
+    }
+
+    .left {
+        width: 100%
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .google-card {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .meta-card {
+        margin-left: 0;
+        width: 100%;
+    }
 }
